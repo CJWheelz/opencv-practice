@@ -10,6 +10,7 @@
 
 #include <stdio.h>
 #include <opencv2/imgproc.hpp>
+#include <opencv2/highgui.hpp>
 
 using namespace cv;
 
@@ -17,7 +18,7 @@ class Chapter2 {
 public:
     Chapter2();
     
-    Mat convert_gray(Mat img);
+    void edit_image(Mat img);
     
 };
 

@@ -67,6 +67,7 @@
 		7F21CCB928A19730007DE072 /* webcam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F21CCB728A19730007DE072 /* webcam.cpp */; };
 		7F47868928A3ECE100E1734C /* chapter1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F47868728A3ECE100E1734C /* chapter1.cpp */; };
 		7F47868D28A3F04700E1734C /* chapter2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F47868B28A3F04700E1734C /* chapter2.cpp */; };
+		7F47869128A4317100E1734C /* chapter3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F47868F28A4317100E1734C /* chapter3.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -148,6 +149,8 @@
 		7F47868828A3ECE100E1734C /* chapter1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = chapter1.hpp; sourceTree = "<group>"; };
 		7F47868B28A3F04700E1734C /* chapter2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chapter2.cpp; sourceTree = "<group>"; };
 		7F47868C28A3F04700E1734C /* chapter2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = chapter2.hpp; sourceTree = "<group>"; };
+		7F47868F28A4317100E1734C /* chapter3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chapter3.cpp; sourceTree = "<group>"; };
+		7F47869028A4317100E1734C /* chapter3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = chapter3.hpp; sourceTree = "<group>"; };
 		7FB3A04128A2F81300E58FD9 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -296,6 +299,7 @@
 			children = (
 				7F47868628A3ECA100E1734C /* Chapter-1 */,
 				7F47868A28A3F02E00E1734C /* Chapter-2 */,
+				7F47868E28A4315300E1734C /* Chapter-3 */,
 				7F21CCBC28A1A9C6007DE072 /* Resources */,
 				7F21CC4828A191F9007DE072 /* opencv-practice.entitlements */,
 				7F21CC3F28A18D45007DE072 /* main.cpp */,
@@ -321,6 +325,15 @@
 				7F47868C28A3F04700E1734C /* chapter2.hpp */,
 			);
 			path = "Chapter-2";
+			sourceTree = "<group>";
+		};
+		7F47868E28A4315300E1734C /* Chapter-3 */ = {
+			isa = PBXGroup;
+			children = (
+				7F47868F28A4317100E1734C /* chapter3.cpp */,
+				7F47869028A4317100E1734C /* chapter3.hpp */,
+			);
+			path = "Chapter-3";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,6 +395,7 @@
 			files = (
 				7F21CCB928A19730007DE072 /* webcam.cpp in Sources */,
 				7F47868928A3ECE100E1734C /* chapter1.cpp in Sources */,
+				7F47869128A4317100E1734C /* chapter3.cpp in Sources */,
 				7F47868D28A3F04700E1734C /* chapter2.cpp in Sources */,
 				7F21CC4028A18D45007DE072 /* main.cpp in Sources */,
 			);

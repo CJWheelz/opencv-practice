@@ -8,11 +8,12 @@
 
 //#include <opencv2/imgcodecs.hpp>
 //#include <opencv2/highgui.hpp>
-//#include <opencv2/imgproc.hpp>
+#include <opencv2/imgproc.hpp>
 #include <iostream>
 
 #include "Chapter-1/chapter1.hpp"
 #include "Chapter-2/chapter2.hpp"
+#include "Chapter-3/chapter3.hpp"
 
 using namespace cv;
 using namespace std;
@@ -20,13 +21,12 @@ using namespace std;
 
 int main() {
     
-    Chapter2 chap2;
-    
     Mat img = imread("headshot.JPG");
     
-    Mat gray_image = chap2.convert_gray(img);
+    Chapter3 chap3;
     
-    imshow("Gray", gray_image);
+    Mat result = chap3.blur_gray_crop_shrink(img, 300, 200);
+    
+    imshow("New Image", result);
     waitKey();
-    
 }
